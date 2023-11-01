@@ -1,6 +1,5 @@
 import Button from "../Button/Button"
 import { Container } from "./styles"
-import { Img } from "../Img/Img"
 
 function Main() {
   return (
