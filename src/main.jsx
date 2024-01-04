@@ -1,16 +1,12 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
-import Header from "./Components/Header/Header"
-import Main from "./Components/Main/Main"
 import GlobalStyles from "./styles/global.js"
-import { Img } from "./Components/Img/Img"
-
+import { Home } from "./pages/Home/index.jsx"
+// import { Services } from "./pages/Services/index.jsx"
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <GlobalStyles />
-    <Header></Header>
-    <Img></Img>
-    <Main></Main>
+    <Home></Home>
   </React.StrictMode>
 )
