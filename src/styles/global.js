@@ -18,6 +18,6 @@ export default createGlobalStyle`
   img {
   width: 100%;
   height: 1000px;
-  opacity: 0.5;
+  opacity: 0.35;
   }
   `
