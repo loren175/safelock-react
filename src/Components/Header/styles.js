@@ -6,7 +6,7 @@ export const Container = styled.div`
     justify-content: space-around;
     align-items: center;
     padding: 8px;
-    border-bottom: 1px solid black;
+    box-shadow: 2px 2px 12px black;
     > a {
       text-decoration: none;
       color: white;
