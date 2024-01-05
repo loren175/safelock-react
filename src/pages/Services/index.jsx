@@ -2,30 +2,272 @@ import Header from "../../Components/Header/Header"
 import { Container } from "./styles"
 import { CodeBG } from "../../Components/CodeBG/CodeBG"
 import { Card } from "../../Components/Card/Card"
+import { UL } from "../../Components/UL/UL"
+import { ValueButton } from "../../Components/ValueButton/ValueButton"
+import { CardDisplay } from "./styles"
+import { Introduction } from "./styles"
+import { CardArea } from "./styles"
+import { PayFlags } from "./styles"
 
 export function Services() {
   return (
     <Container>
       <Header></Header>
       <CodeBG></CodeBG>
-      <div>
+      <Introduction>
         <h1>Buscamos proteger o que é importante para você!</h1>
-        <p>
-          Nossos serviços variam de plano para plano, sendo o mais seguro e
-          recomendado o plano Black. Porém, temos variedades que cobrem por mais
-          tempo e por um valor que cabe no seu bolso, além de planos que
-          oferecem menos com um custo menor ainda.
-        </p>
-        <Card
-          title="Minimal"
-          description="Mensal de baixo custo"
-          cover="
-          Contas bancárias
-          Contas de jogos
-          E-mails"
-          value="Assine por R$14,90"
-        ></Card>
-      </div>
+  
+      </Introduction>
+      <CardArea>
+        <CardDisplay>
+          <Card title="Minimal" description="Mensal de baixo custo" />
+          <UL cover="E-mail" />
+          <UL cover="Contas bancárias" />
+          <UL cover="1 dispositivo móvel" />
+          <ValueButton value="Assine por R$14,90" />
+        </CardDisplay>
+        <CardDisplay>
+          <Card title="Safe" description="Trimestral médio" />
+          <UL cover="E-mail" />
+          <UL cover="Contas bancárias" />
+          <UL cover="2 dispositivos móveis" />
+          <UL cover="3 Contas de jogos" />
+          <ValueButton value="Assine por R$42,70" />
+        </CardDisplay>
+        <CardDisplay>
+          <Card title="Black" description="Anual completo" />
+          <UL cover="E-mail" />
+          <UL cover="Contas bancárias" />
+          <UL cover="Todos dispositivos" />
+          <UL cover="6 Contas de jogos" />
+          <UL cover="Streamings" />
+          <ValueButton value="Assine por R$140,90" />
+        </CardDisplay>
+      </CardArea>
+
+      <PayFlags>
+        <h3>Formas de Pagamento</h3>
+        <div>
+          <ul>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="34.168"
+                height="11.039"
+                viewBox="0 0 34.168 11.039"
+              >
+                <g id="_0" data-name="0" transform="translate(-11.915 -14.479)">
+                  <g id="Agrupar_44" data-name="Agrupar 44">
+                    <path
+                      id="Caminho_176"
+                      data-name="Caminho 176"
+                      d="M42.747,21.56c-.277-1.325-.548-2.627-.82-3.929l-.039,0c-.473,1.305-.946,2.61-1.426,3.932ZM36.2,25.336c.164-.4.326-.784.489-1.173q1.808-4.318,3.616-8.638a1.266,1.266,0,0,1,1.267-.846q1.054,0,2.108,0c.134,0,.194.027.225.175q1.066,5.142,2.146,10.28c.014.067.022.136.034.213H43.54c-.1-.461-.2-.915-.282-1.374-.031-.172-.1-.219-.271-.218-1.044.009-2.089.007-3.133,0a.226.226,0,0,0-.257.181c-.145.431-.3.858-.464,1.283a.23.23,0,0,1-.165.129c-.9.008-1.8,0-2.7,0A.356.356,0,0,1,36.2,25.336Z"
+                      fill="#152884"
+                    ></path>
+                    <path
+                      id="Caminho_177"
+                      data-name="Caminho 177"
+                      d="M36.836,14.964c-.16.748-.319,1.487-.478,2.232-.3-.1-.591-.211-.887-.293a4.31,4.31,0,0,0-1.989-.129,1.862,1.862,0,0,0-.69.289.663.663,0,0,0-.026,1.146,12.358,12.358,0,0,0,1.061.658c.443.268.911.5,1.327.806A2.688,2.688,0,0,1,36.2,22.79a3.477,3.477,0,0,1-2.286,2.331,7.062,7.062,0,0,1-3.158.362,7.957,7.957,0,0,1-1.984-.4c-.106-.037-.21-.08-.329-.126q.25-1.176.492-2.306c.457.161.9.345,1.349.469a4.262,4.262,0,0,0,2.065.1,2.116,2.116,0,0,0,.766-.345.751.751,0,0,0,.058-1.2,7.256,7.256,0,0,0-.972-.651c-.5-.308-1.036-.563-1.5-.912a2.715,2.715,0,0,1-.472-3.979,4.1,4.1,0,0,1,2.365-1.447,7.082,7.082,0,0,1,4.088.219C36.732,14.92,36.777,14.94,36.836,14.964Z"
+                      fill="#152884"
+                    ></path>
+                    <path
+                      id="Caminho_178"
+                      data-name="Caminho 178"
+                      d="M28.825,14.7c-.073.35-.143.694-.217,1.037q-1,4.678-2,9.358c-.043.2-.112.272-.326.267-.753-.015-1.506-.006-2.259-.006h-.234c.071-.334.137-.647.2-.959q1.023-4.781,2.045-9.562c.021-.1.043-.156.163-.156.842.005,1.683,0,2.525,0C28.753,14.681,28.777,14.688,28.825,14.7Z"
+                      fill="#152884"
+                    ></path>
+                    <path
+                      id="Caminho_179"
+                      data-name="Caminho 179"
+                      d="M11.974,14.679h.2q2.193,0,4.386,0a1.286,1.286,0,0,1,1.388,1.15l1.134,6a.691.691,0,0,0,.027.076c.041-.09.072-.151.1-.215q1.35-3.41,2.694-6.821a.256.256,0,0,1,.288-.192c.823.007,1.646,0,2.468,0h.215c-.041.107-.072.194-.108.279q-2.142,5.113-4.283,10.227a.226.226,0,0,1-.246.171q-1.292-.01-2.582,0c-.135,0-.181-.042-.214-.17-.724-2.814-1.456-5.626-2.178-8.441a1.292,1.292,0,0,0-.735-.9,12.434,12.434,0,0,0-2.477-.822c-.042-.01-.083-.023-.138-.038.01-.054.018-.1.027-.15S11.961,14.745,11.974,14.679Z"
+                      fill="#152884"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="27.738"
+                height="17.222"
+                viewBox="0 0 27.738 17.222"
+              >
+                <g transform="translate(-16.131 -11.389)">
+                  <circle
+                    cx="8.599"
+                    cy="8.599"
+                    r="8.599"
+                    transform="translate(26.671 11.413)"
+                    fill="#f79e1b"
+                  ></circle>
+                  <circle
+                    cx="8.599"
+                    cy="8.599"
+                    r="8.599"
+                    transform="translate(16.131 11.389)"
+                    fill="#eb001b"
+                  ></circle>
+                  <path
+                    d="M26.671,19.993a8.586,8.586,0,0,0,3.313,6.8,8.6,8.6,0,0,0,.033-13.591A8.575,8.575,0,0,0,26.671,19.993Z"
+                    fill="#ff5f00"
+                  ></path>
+                </g>
+              </svg>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                viewBox="0 0 60 40"
+              >
+                <path
+                  d="M60,35a5.015,5.015,0,0,1-5,5H5a5.015,5.015,0,0,1-5-5V5A5.015,5.015,0,0,1,5,0H55a5.015,5.015,0,0,1,5,5Z"
+                  fill="#ffed00"
+                ></path>
+                <path
+                  d="M19.529,23.647,30,30.625l10.474-6.979-4.4-2.936-5,3.33,2.439,1.63L30,28.017l-6.554-4.372,10.943-7.3-1.957-1.306Z"
+                  fill="#225198"
+                ></path>
+                <path
+                  d="M36.557,12.3,38.514,13.6l2.169-1.448V9.549ZM25.608,23.647l1.957,1.306L40.47,16.345,30,9.375,19.529,16.346l4.388,2.93,5-3.336-2.439-1.609,3.515-2.349,6.561,4.371Zm-6.29,4.2V30.45L23.443,27.7,21.486,26.4Z"
+                  fill="#225198"
+                ></path>
+              </svg>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="13.55"
+                viewBox="0 0 30.776 8.212"
+              >
+                <g transform="translate(224.52 -374.351)">
+                  <g transform="translate(-237 372)">
+                    <path
+                      d="M39.352,6.749H36.959a.333.333,0,0,0-.329.281l-.968,6.137a.2.2,0,0,0,.2.23H37a.333.333,0,0,0,.329-.281l.261-1.655a.332.332,0,0,1,.328-.281h.758A2.458,2.458,0,0,0,41.4,8.905a1.843,1.843,0,0,0-.3-1.545A2.22,2.22,0,0,0,39.352,6.749Zm.276,2.241c-.131.859-.787.859-1.422.859h-.361l.253-1.6a.2.2,0,0,1,.2-.168h.166c.432,0,.84,0,1.051.246a.8.8,0,0,1,.113.663Z"
+                      transform="translate(-23.18 -4.387)"
+                      fill="#253b80"
+                    ></path>
+                    <path
+                      d="M56.585,12.875H55.439a.2.2,0,0,0-.2.168l-.051.321-.08-.116a1.631,1.631,0,0,0-1.354-.48,2.636,2.636,0,0,0-2.559,2.3,2.163,2.163,0,0,0,.427,1.761,1.793,1.793,0,0,0,1.444.583,2.193,2.193,0,0,0,1.586-.656l-.051.318a.2.2,0,0,0,.2.231h1.032a.333.333,0,0,0,.329-.281l.619-3.923a.2.2,0,0,0-.2-.226Zm-1.6,2.231A1.277,1.277,0,0,1,53.694,16.2a.888.888,0,0,1-.949-1.114,1.283,1.283,0,0,1,1.284-1.1.967.967,0,0,1,.764.312.992.992,0,0,1,.194.807Z"
+                      transform="translate(-33.259 -8.299)"
+                      fill="#253b80"
+                    ></path>
+                    <path
+                      d="M74.177,13.075H73.026a.334.334,0,0,0-.275.146l-1.588,2.34-.673-2.248a.334.334,0,0,0-.319-.237H69.037a.2.2,0,0,0-.189.264l1.269,3.723-1.193,1.684a.2.2,0,0,0,.163.315h1.15a.332.332,0,0,0,.273-.143l3.831-5.529a.2.2,0,0,0-.164-.315Z"
+                      transform="translate(-44.747 -8.499)"
+                      fill="#253b80"
+                    ></path>
+                    <path
+                      d="M88.133,6.749H85.74a.332.332,0,0,0-.328.281l-.968,6.137a.2.2,0,0,0,.2.23h1.228a.233.233,0,0,0,.23-.2l.275-1.74a.332.332,0,0,1,.328-.281h.757A2.458,2.458,0,0,0,90.186,8.9a1.842,1.842,0,0,0-.306-1.545,2.218,2.218,0,0,0-1.747-.607Zm.276,2.241c-.131.859-.787.859-1.422.859h-.361l.254-1.6a.2.2,0,0,1,.2-.168h.166c.432,0,.84,0,1.051.246a.8.8,0,0,1,.112.663Z"
+                      transform="translate(-54.89 -4.387)"
+                      fill="#179bd7"
+                    ></path>
+                    <path
+                      d="M105.368,12.875h-1.145a.2.2,0,0,0-.2.168l-.051.321-.08-.116a1.631,1.631,0,0,0-1.353-.48,2.635,2.635,0,0,0-2.559,2.3,2.164,2.164,0,0,0,.427,1.761,1.794,1.794,0,0,0,1.444.583,2.193,2.193,0,0,0,1.586-.656l-.051.318a.2.2,0,0,0,.2.231h1.032a.332.332,0,0,0,.328-.281l.62-3.923a.2.2,0,0,0-.2-.226Zm-1.6,2.231a1.277,1.277,0,0,1-1.293,1.094.888.888,0,0,1-.949-1.114,1.283,1.283,0,0,1,1.284-1.1.967.967,0,0,1,.764.312.987.987,0,0,1,.2.807Z"
+                      transform="translate(-64.971 -8.299)"
+                      fill="#179bd7"
+                    ></path>
+                    <path
+                      d="M117.466,6.917l-.982,6.25a.2.2,0,0,0,.2.23h.988a.332.332,0,0,0,.329-.281l.969-6.137a.2.2,0,0,0-.2-.231h-1.106A.2.2,0,0,0,117.466,6.917Z"
+                      transform="translate(-75.717 -4.386)"
+                      fill="#179bd7"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32.33"
+                height="20.109"
+                viewBox="0 0 32.33 20.109"
+              >
+                <g transform="translate(-13.835 -9.945)">
+                  <rect
+                    width="1.976"
+                    height="20.109"
+                    transform="translate(13.835 9.945)"
+                  ></rect>
+                  <rect
+                    width="1.976"
+                    height="20.109"
+                    transform="translate(25.991 9.945)"
+                  ></rect>
+                  <rect
+                    width="1.976"
+                    height="20.109"
+                    transform="translate(36.1 9.945)"
+                  ></rect>
+                  <rect
+                    width="1.976"
+                    height="20.109"
+                    transform="translate(40.121 9.945)"
+                  ></rect>
+                  <rect
+                    width="1.976"
+                    height="20.109"
+                    transform="translate(44.189 9.945)"
+                  ></rect>
+                  <rect
+                    width="4.019"
+                    height="20.109"
+                    transform="translate(30.012 9.945)"
+                  ></rect>
+                  <rect
+                    width="6.041"
+                    height="20.109"
+                    transform="translate(17.879 9.945)"
+                  ></rect>
+                </g>
+              </svg>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="50"
+                viewBox="0 0 30 30"
+              >
+                <g transform="translate(-26 -6)">
+                  <circle
+                    cx="15"
+                    cy="15"
+                    r="15"
+                    transform="translate(26 6)"
+                  ></circle>
+                  <g transform="translate(1.092 0.812)">
+                    <path
+                      d="M39.961,14.188v9.158l1.589.659L40.8,25.811l-1.572-.653a1.786,1.786,0,0,1-.774-.65,2.051,2.051,0,0,1-.3-1.136V14.189Zm-7.24,2.138a4.744,4.744,0,0,0-4.046,7.331l8.59-3.672A4.742,4.742,0,0,0,32.721,16.326Zm-2.846,5.036a2.488,2.488,0,0,1-.017-.336,2.792,2.792,0,0,1,4.924-1.759Zm4.726,1.7a2.774,2.774,0,0,1-3.437.366l-1.038,1.654a4.735,4.735,0,0,0,5.837-.621Z"
+                      fill="#fff"
+                    ></path>
+                    <g transform="translate(32.94 3.97)">
+                      <path
+                        d="M18.373,20.918a2.828,2.828,0,0,1-3.665,2.113l-.628,1.875a4.806,4.806,0,0,0,6.229-3.591Z"
+                        transform="translate(-2.027 -3.321)"
+                        fill="#ed412f"
+                      ></path>
+                      <path
+                        d="M10.4,21.372l1.31-1.481a2.824,2.824,0,0,1,0-4.231L10.4,14.18a4.8,4.8,0,0,0,0,7.192"
+                        transform="translate(0 -0.746)"
+                        fill="#1aa5df"
+                      ></path>
+                      <path
+                        d="M14.71,14.35a2.828,2.828,0,0,1,3.665,2.116l1.937-.395a4.807,4.807,0,0,0-6.229-3.6Z"
+                        transform="translate(-2.028)"
+                        fill="#ffca32"
+                      ></path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </PayFlags>
     </Container>
   )
 }
