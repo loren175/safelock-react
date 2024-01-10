@@ -1,4 +1,4 @@
-import ButtonText from "../ButtonText/ButtonText"
+import Button from "../../Components/Button/Button"
 import { Container } from "./styles"
 
 function Header() {
@@ -11,8 +11,8 @@ function Header() {
         <a href="">Compatibilidade</a>
 
         <div>
-          <ButtonText text="Criar conta" />
-          <ButtonText text="Entrar" />
+          <Button text="Criar conta" />
+          <Button text="Entrar" />
         </div>
       </nav>
     </Container>

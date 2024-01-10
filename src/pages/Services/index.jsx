@@ -1,13 +1,15 @@
 import Header from "../../Components/Header/Header"
-import { Container } from "./styles"
+import {
+  Container,
+  PayFlags,
+  CardArea,
+  Introduction,
+  CardDisplay,
+} from "./styles"
 import { CodeBG } from "../../Components/CodeBG/CodeBG"
 import { Card } from "../../Components/Card/Card"
 import { UL } from "../../Components/UL/UL"
 import { ValueButton } from "../../Components/ValueButton/ValueButton"
-import { CardDisplay } from "./styles"
-import { Introduction } from "./styles"
-import { CardArea } from "./styles"
-import { PayFlags } from "./styles"
 
 export function Services() {
   return (
@@ -16,7 +18,6 @@ export function Services() {
       <CodeBG></CodeBG>
       <Introduction>
         <h1>Buscamos proteger o que é importante para você!</h1>
-  
       </Introduction>
       <CardArea>
         <CardDisplay>
