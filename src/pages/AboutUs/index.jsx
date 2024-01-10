@@ -1,9 +1,9 @@
-import { Container } from "./styles"
-import { Info } from "./styles"
-import { Contact } from "./styles"
+import { Container, TextH4, Contact, Info } from "./styles"
 import Header from "../../Components/Header/Header"
 import { AboutBG } from "../../Components/AboutBG/AboutBG"
 import Button from "../../Components/Button/Button"
+import { EmailSVG } from "../../assets/email"
+import { PhoneSVG } from "../../assets/phone"
 
 export function AboutUs() {
   return (
@@ -153,15 +153,18 @@ c21 -23 12 -39 -13 -24 -19 12 -29 44 -14 44 5 0 17 -9 27 -20z m-890 -61 c9
         </div>
       </Info>
 
+      <TextH4>
+        <h4>Central de atendimento:</h4>
+      </TextH4>
+
       <Contact>
-        <section>
-          <h4>Central de atendimento</h4>
-          <span>
-            Telefone para atendimento: (11) xxxx-xxxx Seg a Sex das 8h às 12h |
-            das 13h30 às 18h
-          </span>
-          <span> E-mail: sac@xxxxxxxx.com.br</span>
-        </section>
+        <PhoneSVG />
+        <p>
+          Telefone para atendimento: (11) xxxx-xxxx Seg a Sex das 8h às 12h |
+          das 13h30 às 18h
+        </p>
+        <EmailSVG />
+        <span> E-mail: sac@xxxxxxxx.com.br</span>
       </Contact>
     </Container>
   )
