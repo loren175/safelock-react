@@ -1,10 +1,10 @@
-# Simple landing page w/ React
+# WebSite w/ React (in progress)
  
 ![preview](./github/preview.png)
 
 > Landing page SafeLock
 
-Front-end simples de uma landing page "SafeLock" (Empresa fictícia que faria o papel de proteger dados sensíveis) para praticar o uso do React.
+Front-end de um WebSite "SafeLock" (Empresa fictícia que faria o papel de proteger dados sensíveis) para praticar o uso do React. O site irá conter páginas de: login, signUp e de navegação.
 
 
 ## 🚀 Tecnologias
