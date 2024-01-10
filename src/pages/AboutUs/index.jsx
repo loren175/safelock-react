@@ -148,7 +148,9 @@ c21 -23 12 -39 -13 -24 -19 12 -29 44 -14 44 5 0 17 -9 27 -20z m-890 -61 c9
           Impedit, ipsum? Ipsa ipsam doloribus cumque repudiandae impedit minima
           consequuntur veniam deserunt.
         </p>
-        <Button text="Envie uma mensagem" />
+        <div>
+          <Button text="Envie uma mensagem" />
+        </div>
       </Info>
 
       <Contact>
