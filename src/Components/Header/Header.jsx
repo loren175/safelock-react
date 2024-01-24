@@ -5,10 +5,10 @@ function Header() {
   return (
     <Container>
       <nav>
-        <a href="">Home</a>
-        <a href="">Serviços</a>
-        <a href="">Sobre Nós</a>
-        <a href="">Compatibilidade</a>
+        <a href="/">Home</a>
+        <a href="/serviços">Serviços</a>
+        <a href="/sobre">Sobre Nós</a>
+        <a href="/compatibilidade">Compatibilidade</a>
 
         <div>
           <Button text="Criar conta" />

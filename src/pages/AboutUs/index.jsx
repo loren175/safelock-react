@@ -2,8 +2,8 @@ import { Container, TextH4, Contact, Info } from "./styles"
 import Header from "../../Components/Header/Header"
 import { AboutBG } from "../../Components/AboutBG/AboutBG"
 import Button from "../../Components/Button/Button"
-import { EmailSVG } from "../../assets/email"
-import { PhoneSVG } from "../../assets/phone"
+import { EmailSVG } from "../../assets/SVG/email"
+import { PhoneSVG } from "../../assets/SVG/phone"
 
 export function AboutUs() {
   return (
