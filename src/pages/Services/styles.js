@@ -35,7 +35,7 @@ export const PayFlags = styled.div`
   align-items: center;
   margin: auto;
   border: 1px solid grey;
-  width: 50vw;
+  width: 700px;
 
   > div {
     display: flex;

@@ -13,6 +13,7 @@ Front-end de um WebSite "SafeLock" (Empresa fictícia que faria o papel de prote
 - ESLint
 - React
 - React-dom
+- React-router-dom
 - Styled Components
 - Vite
 - CSS

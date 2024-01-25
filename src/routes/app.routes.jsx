@@ -1,29 +1,20 @@
-import { createBrowserRouter } from "react-router-dom"
+import { Routes, Route, Navigate } from "react-router-dom"
 import { Home } from "../pages/Home/index.jsx"
 import { Services } from "../pages/Services/index.jsx"
 import { AboutUs } from "../pages/AboutUs/index.jsx"
 import { NotFound } from "../pages/NotFound/index.jsx"
 import { Compatibility } from "../pages/Compatibility/index.jsx"
 
-export const router = createBrowserRouter([
-  {
-    path: "/",
-    errorElement: <NotFound />,
-    element: <Home />,
-    children: [
-      
-    ]
-  },
-  {
-    path: "/serviços",
-    element: <Services />,
-  },
-  {
-    path: "/sobre",
-    element: <AboutUs />,
-  },
-  {
-    path: "/compatibilidade",
-    element: <Compatibility />,
-  },
-])
+export function AppRoutes() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/about" element={<AboutUs />} />
+      <Route path="/compatibility" element={<Compatibility />} />
+      <Route path="/notfound" element={<NotFound />} />
+
+      <Route path="*" element={<Navigate to="/notfound" />} />
+    </Routes>
+  )
+}

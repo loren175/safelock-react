@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { Link } from "react-router-dom"
 
 export const Container = styled.div`
   div {
@@ -22,5 +23,15 @@ export const Container = styled.div`
     a:hover {
       color: #dddddd;
     }
+  }
+`
+
+export const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: #eeeeee;
+  transition: all 0.2s;
+
+  &:hover {
+    color: #dddddd;
   }
 `

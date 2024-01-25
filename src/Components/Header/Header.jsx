@@ -1,14 +1,14 @@
 import Button from "../../Components/Button/Button"
-import { Container } from "./styles"
+import { Container, StyledLink } from "./styles"
 
 function Header() {
   return (
     <Container>
       <nav>
-        <a href="/">Home</a>
-        <a href="/serviços">Serviços</a>
-        <a href="/sobre">Sobre Nós</a>
-        <a href="/compatibilidade">Compatibilidade</a>
+        <StyledLink to="/">Home</StyledLink>
+        <StyledLink to="/services">Serviços</StyledLink>
+        <StyledLink to="/about">Sobre Nós</StyledLink>
+        <StyledLink to="/compatibility">Compatibilidade</StyledLink>
 
         <div>
           <Button text="Criar conta" />
