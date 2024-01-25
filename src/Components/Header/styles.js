@@ -12,9 +12,15 @@ export const Container = styled.div`
     align-items: center;
     padding: 8px;
     box-shadow: 2px 2px 12px black;
+    
     > a {
       text-decoration: none;
-      color: white;
+      color: #eeeeee;
+      transition: all .2s;
+    }
+
+    a:hover {
+      color: #dddddd;
     }
   }
 `

@@ -8,4 +8,10 @@ export const Container = styled.button`
   width: 150px;
   background: linear-gradient(to right, #ed213a, #93291e);
   cursor: pointer;
+  transition: all .3s;
+
+  &:hover {
+    color: white;
+    background: transparent;
+  }
 `

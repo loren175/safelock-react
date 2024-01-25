@@ -18,5 +18,11 @@ export const Container = styled.button`
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .3s;
+  }
+
+  button:hover {
+    color: white;
+    background: transparent;
   }
 `
