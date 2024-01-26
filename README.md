@@ -14,6 +14,7 @@ Front-end de um WebSite "SafeLock" (Empresa fictícia que faria o papel de prote
 - React
 - React-dom
 - React-router-dom
+- React-icons
 - Styled Components
 - Vite
 - CSS

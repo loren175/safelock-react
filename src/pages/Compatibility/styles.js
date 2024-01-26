@@ -25,6 +25,8 @@ export const LogosArea = styled.div`
   border: 1px solid black;
   margin: 50px;
   padding: 10px;
+  max-width: 1300px;
+  min-width: 600px;
 `
 
 export const SuggestionArea = styled.div`
