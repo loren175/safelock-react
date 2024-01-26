@@ -1,7 +1,18 @@
 import Button from "../../Components/Button/Button"
 import { Container, StyledLink } from "./styles"
+import { useNavigate } from "react-router-dom"
 
 function Header() {
+  const navigate = useNavigate()
+
+  function handleRegisterClick()  {
+    navigate('/register')
+  }
+  
+  function handleLoginClick() {
+    navigate('/login')
+  }
+
   return (
     <Container>
       <nav>
@@ -11,8 +22,8 @@ function Header() {
         <StyledLink to="/compatibility">Compatibilidade</StyledLink>
 
         <div>
-          <Button text="Criar conta" />
-          <Button text="Entrar" />
+          <Button text="Criar conta" onClick={() => handleRegisterClick()} />
+          <Button text="Entrar" onClick={() => handleLoginClick()} />
         </div>
       </nav>
     </Container>

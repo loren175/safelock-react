@@ -1,11 +1,7 @@
 import { Container } from "./styles"
 
-function Button (props) {
-  return (
-    <Container>
-      {props.text}
-    </Container>
-  )
+function Button({ text, onClick }) {
+  return <Container onClick={onClick}>{text}</Container>
 }
 
 export default Button

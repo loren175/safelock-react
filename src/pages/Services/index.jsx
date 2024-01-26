@@ -14,8 +14,8 @@ import { ValueButton } from "../../Components/ValueButton/ValueButton"
 export function Services() {
   return (
     <Container>
-      <Header></Header>
-      <CodeBG></CodeBG>
+      <Header />
+      <CodeBG />
       <Introduction>
         <h1>Buscamos proteger o que é importante para você!</h1>
       </Introduction>
