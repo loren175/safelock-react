@@ -1,7 +1,7 @@
 import { Container, Form, LoginArea } from "./styles"
 import { FiMail, FiLock, FiUserPlus } from "react-icons/fi"
 import Header from "../../Components/Header/Header"
-import { Input } from "../../components/Input"
+import  Input  from "../../components/Input/Input"
 import Button from "../../Components/Button/Button"
 import { LockBG } from "../../Components/LockBG/LockBG"
 import { Link } from "react-router-dom"

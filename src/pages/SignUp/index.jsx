@@ -1,6 +1,6 @@
 import { Container, Form, RegisterArea } from "./styles"
 import Header from "../../Components/Header/Header"
-import { Input } from "../../components/Input"
+import  Input  from "../../components/Input/Input"
 import Button from "../../Components/Button/Button"
 import { FiMail, FiUser, FiLock, FiArrowLeft } from "react-icons/fi"
 import { Link } from "react-router-dom"
