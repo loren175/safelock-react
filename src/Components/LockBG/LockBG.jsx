@@ -9,4 +9,4 @@ export function LockBG() {
   )
 }
 
-// Lock Background from Home
+// Lock Background from Home and SignIn
