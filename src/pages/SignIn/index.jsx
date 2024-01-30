@@ -5,6 +5,7 @@ import Input from "../../Components/Input/Input"
 import Button from "../../Components/Button/Button"
 import { LockBG } from "../../Components/LockBG/LockBG"
 import { Link } from "react-router-dom"
+import { Footer } from "../../Components/Footer/Footer"
 
 export function SignIn(){
   return (
@@ -27,6 +28,7 @@ export function SignIn(){
           </Link>
         </Form>
       </LoginArea>
+      <Footer />
     </Container>
   )
 }

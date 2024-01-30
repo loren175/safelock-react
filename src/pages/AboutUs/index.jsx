@@ -4,6 +4,7 @@ import { AboutBG } from "../../Components/AboutBG/AboutBG"
 import Button from "../../Components/Button/Button"
 import { EmailSVG } from "../../assets/SVG/email"
 import { PhoneSVG } from "../../assets/SVG/phone"
+import { Footer } from "../../Components/Footer/Footer"
 
 export function AboutUs() {
   return (
@@ -166,6 +167,7 @@ c21 -23 12 -39 -13 -24 -19 12 -29 44 -14 44 5 0 17 -9 27 -20z m-890 -61 c9
         <EmailSVG />
         <span> E-mail: sac@xxxxxxxx.com.br</span>
       </Contact>
+      <Footer />
     </Container>
   )
 }

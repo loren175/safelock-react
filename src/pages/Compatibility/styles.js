@@ -32,7 +32,7 @@ export const LogosArea = styled.div`
 export const SuggestionArea = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 50px;
+  margin: 50px 50px 290px 50px;
   max-width: 400px;
   gap: 10px;
 

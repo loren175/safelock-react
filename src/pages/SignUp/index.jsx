@@ -5,6 +5,7 @@ import Button from "../../Components/Button/Button"
 import { FiMail, FiUser, FiLock, FiArrowLeft } from "react-icons/fi"
 import { Link } from "react-router-dom"
 import { FloorBG } from "../../Components/FloorBG/FloorBG"
+import { Footer } from "../../Components/Footer/Footer"
 
 export function SignUp() {
   return (
@@ -29,6 +30,7 @@ export function SignUp() {
           </Link>
         </Form>
       </RegisterArea>
+      <Footer />
     </Container>
   )
 }

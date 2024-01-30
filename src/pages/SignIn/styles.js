@@ -9,7 +9,7 @@ export const LoginArea = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 75px;
+  margin: 75px 0px 480px;
 `
 
 export const Form = styled.form`

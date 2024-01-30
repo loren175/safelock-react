@@ -7,6 +7,7 @@ import { RiotSVG } from "../../assets/SVG/riot"
 import { GoogleSVG } from "../../assets/SVG/google"
 import { FacebookSVG } from "../../assets/SVG/facebook"
 import Button from "../../Components/Button/Button"
+import { Footer } from "../../Components/Footer/Footer"
 
 export function Compatibility() {
   return (
@@ -40,6 +41,7 @@ export function Compatibility() {
         <textarea name="" id="" cols="30" rows="4"></textarea>
         <Button text="Enviar" />
       </SuggestionArea>
+      <Footer />
     </Container>
   )
 }

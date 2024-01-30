@@ -37,7 +37,7 @@ export const TextH4 = styled.div`
   margin: 200px 0px 35px 20px;
 `
 export const Contact = styled.div`
-  margin: 20px;
+  margin: 20px 20px 60px 20px;
   display: grid;
   grid-template-columns: 70px 200px;
   grid-template-rows: 50px 100px;

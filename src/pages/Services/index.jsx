@@ -10,6 +10,7 @@ import { CodeBG } from "../../Components/CodeBG/CodeBG"
 import { Card } from "../../Components/Card/Card"
 import { UL } from "../../Components/UL/UL"
 import { ValueButton } from "../../Components/ValueButton/ValueButton"
+import { Footer } from "../../Components/Footer/Footer"
 
 export function Services() {
   return (
@@ -269,6 +270,7 @@ export function Services() {
           </ul>
         </div>
       </PayFlags>
+      <Footer />
     </Container>
   )
 }
